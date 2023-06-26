@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+header .top {
+  padding: 1rem;
+  background-image: url("../images/background.png");
+}
+header .top h1 {
+  font-size: 2.5rem;
+}
+header .top h3 {
+  font-size: 1rem;
+}
+header nav {
+  background-color: black;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li {
+  padding: 0.8rem 1.2rem;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+header nav ul li a:hover {
+  color: yellow;
+}
+.active {
+  color: yellow;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section {
+  padding: 1rem;
+}
+section.left {
+  flex: 1 1 200px;
+}
+section.left img {
+  width: 100%;
+}
+section.left h3 {
+  margin-bottom: 2rem;
+}
+section.left table {
+  margin-top: 1rem;
+}
+section.left table,
+tr,
+td {
+  padding: 0.25rem;
+}
+section.right {
+  flex: 4 1 500px;
+}
+section.right h3 {
+  font-size: 1.5rem;
+  padding: 0.25rem;
+}
+p {
+  padding: 0.5rem 0rem;
+}
+section.right ul {
+  margin-left: 2rem;
+}
+section.right ul li {
+  padding: 0.25rem;
+}
+/* korea */
+main.no-flex {
+  display: block;
+}
+.player {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  border: 3px solid burlywood;
+  margin-bottom: 2rem;
+}
+.player h4 {
+  font-size: 1.5rem;
+  color: rgb(0, 90, 91);
+}
+.player h5 {
+  font-size: 1.1rem;
+  color: rgb(6, 120, 120);
+}
+div.japan {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+div.japan img {
+  flex: 1 1 300px;
+  max-width: 60vh;
+}
+div.japan .info {
+  flex: 3 1 600px;
+  padding: 1rem;
+}
+div.japan .info ul li {
+  margin-left: 2rem;
+}
+div.competition {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+div.competition div.text {
+  flex: 5 1 300px;
+  padding: 1rem;
+}
+div.competition div.text h3 {
+  color: rgb(12, 122, 92);
+  font-size: 2rem;
+}
+#piechart {
+  flex: 1 1 300px;
+}
+section.china h3 {
+  color: rgb(12, 122, 92);
+  font-size: 2rem;
+}
+section.china table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 2px 4px;
+}
+section.china table {
+  min-width: 1000px;
+}
+section.china th {
+  background-color: rgb(86, 224, 192);
+  color: white;
+}
+section.taiwan {
+  height: 100vh;
+}
+section.taiwan h3{
+  font-size: 2rem;
+  color: rgb(12,122,92);
+}
+section.taiwan ul {
+  margin-left: 2rem;
+}
